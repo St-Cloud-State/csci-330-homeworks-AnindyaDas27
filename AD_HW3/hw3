@@ -1,0 +1,32 @@
+Script started on 2025-02-17 06:05:56+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="159" LINES="11"]
+[0;32m@AnindyaDas27 [0m➜ [1;34m/workspaces/csci-330-homeworks-AnindyaDas27/AD_HW3 [0;36m([1;31mmain[0;36m) [0m$ ls[K[Kg++ q1.c[[[K[Kpp -o q1
+[0;32m@AnindyaDas27 [0m➜ [1;34m/workspaces/csci-330-homeworks-AnindyaDas27/AD_HW3 [0;36m([1;31mmain[0;36m) [0m$ ls
+hw3  [0m[01;32mq1[0m  q1.cpp  [01;32mq1.out[0m  q2.lisp  q3.lisp  q4.lisp
+[0;32m@AnindyaDas27 [0m➜ [1;34m/workspaces/csci-330-homeworks-AnindyaDas27/AD_HW3 [0;36m([1;31mmain[0;36m) [0m$ ./q1
+Original array: 34 7 23 32 5 62 
+Sorted array: 5 7 23 32 34 62 
+[0;32m@AnindyaDas27 [0m➜ [1;34m/workspaces/csci-330-homeworks-AnindyaDas27/AD_HW3 [0;36m([1;31mmain[0;36m) [0m$ sbcl
+This is SBCL 2.0.1.debian, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+* (load "" q2.lo isp"" )
+
+(1 1 2 3 4 5 6 7 7 8 9) 
+T
+* (load "" q3.lisp"" )
+
+(1 1 2 3 4 5 6 7 7 8 9) 
+T
+* (load "" q4.lisp"" )
+
+(1 2 5 5 6 9) 
+T
+* (exit)
+[0;32m@AnindyaDas27 [0m➜ [1;34m/workspaces/csci-330-homeworks-AnindyaDas27/AD_HW3 [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2025-02-17 06:07:51+00:00 [COMMAND_EXIT_CODE="0"]
