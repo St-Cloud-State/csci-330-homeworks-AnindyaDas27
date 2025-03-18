@@ -1,0 +1,77 @@
+Script started on 2025-03-18 23:31:23+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="159" LINES="11"]
+[0;32m@AnindyaDas27 [0m➜ [1;34m/workspaces/csci-330-homeworks-AnindyaDas27/AD_HW5 [0;36m([1;31mmain[0;36m) [0m$ sbcl
+This is SBCL 2.0.1.debian, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+* (load "parser.lisp")
+(load "test.lisp")
+
+; file: /workspaces/csci-330-homeworks-AnindyaDas27/AD_HW5/parser.lisp
+; in: DEFUN PARSE-I
+;     (PARSE-E (CDR INPUT))
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::PARSE-E
+
+;     (PARSE-S (CDR REST2))
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::PARSE-S
+; 
+; compilation unit finished
+;   Undefined functions:
+;     PARSE-E PARSE-S
+;   caught 2 STYLE-WARNING conditions
+
+; file: /workspaces/csci-330-homeworks-AnindyaDas27/AD_HW5/parser.lisp
+; in: DEFUN PARSE-E
+;     (PARSE-G INPUT)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::PARSE-G
+; 
+; compilation unit finished
+;   Undefined function:
+;     PARSE-G
+;   caught 1 STYLE-WARNING condition
+
+; file: /workspaces/csci-330-homeworks-AnindyaDas27/AD_HW5/parser.lisp
+; in: DEFUN PARSE-S
+;     (PARSE-L (CDR INPUT))
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::PARSE-L
+; 
+; compilation unit finished
+;   Undefined function:
+;     PARSE-L
+;   caught 1 STYLE-WARNING condition
+T
+* 
+Valid Strings (5-20 characters):
+(I X S E S): VALID ✅
+(I X O Y S E S): VALID ✅
+(I X O Y O Z S E S): VALID ✅
+(I X O Y S E D S B): VALID ✅
+(I X O Y O Z S E D S S B): VALID ✅
+(I X O Y O Z O W S E S): VALID ✅
+(I X O Y O Z O W O X S E S): VALID ✅
+
+Invalid Strings (5-20 characters):
+(I X X X X): INVALID ❌
+(I X O Y O A S E S): INVALID ❌
+(I X S E E): INVALID ❌
+(I X O Y O S S): INVALID ❌
+(I X O Y S E D B): INVALID ❌
+(I X O Y O Z O S D S B): INVALID ❌
+(X I O Y S E S): INVALID ❌
+T
+* (exit)
+[0;32m@AnindyaDas27 [0m➜ [1;34m/workspaces/csci-330-homeworks-AnindyaDas27/AD_HW5 [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2025-03-18 23:31:58+00:00 [COMMAND_EXIT_CODE="0"]
